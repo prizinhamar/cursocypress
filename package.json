@@ -1,0 +1,30 @@
+{
+  "name": "curso-cypress-v2",
+  "version": "1.0.0",
+  "description": "Repositório da versão 2 do curso básico de Cypress da Escola Talking About Testing",
+  "main": "src/index.html",
+    "scripts": {
+    "cy:open": "cypress open", //roda o comando cypress open em modo interativo
+    "test": "cypress run" // roda os testes em modo headles (roda na IC onde não vemos o navegador abrindo)
+  },
+  
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prizinhamar/cypress-basico-v2.git"
+  },
+  "keywords": [
+    "Testing",
+    "Cypress.io",
+    "Talking About Testing",
+    "Cypress Básico",
+    "Escola TAT"
+  ],
+  "author": "Walmyr Filho <wlsf82@gmail.com> (https://walmyr.dev/)",
+  "license": "MIT",
+  "homepage": "https://github.com/wlsf82/cypress-basico-v2#readme",
+  "devDependencies": {
+    "cypress": "^9.5.1"
+    //quando há o devDependecies, e alguém baixa o projeto, basta usar o npm install, que ele lê daqui, e instala a versão correta
+  }
+}
